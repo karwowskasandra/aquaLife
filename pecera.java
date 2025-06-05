@@ -18,4 +18,10 @@ public void setPezHabitante(String pezHabitante) {
 	pezHabitante = null;
 	System.out.println("El habitante ha sido eliminado de la pecera";
     }
+
+    public void imprimirEstado() {
+        System.out.println("Capacidad (litros): " + capacidadLitros);
+        System.out.println("Tipo de agua: " + tipoAgua);
+        System.out.println("Pez habitante: " + (pezHabitante != null ? pezHabitante : "Ninguno"));
+    }
 }
