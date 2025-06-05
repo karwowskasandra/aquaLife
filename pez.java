@@ -15,4 +15,8 @@ public String getNombre() {
 public String getEstado() {
     return "nombre: " + nombre + "salud : " + salud;
  }
+
+public void setSalud(int salud) {
+    salud = salud;
+ }
 }
