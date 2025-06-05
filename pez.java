@@ -19,4 +19,9 @@ public String getEstado() {
 public void setSalud(int salud) {
     salud = salud;
  }
+
+public void imprimirEstado() {
+    System.out.println("nombre : " + nombre);
+    System.out.println("salud : " + salud);
+ }
 }
